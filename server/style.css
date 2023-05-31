@@ -14,3 +14,11 @@ body {
 h1 {
     font-family: 'Times New Roman', Times, serif;
 }
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.services {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

@@ -16,11 +16,15 @@
 
         <div id="emailme">
             <h3>Reach out to me!</h3>
-            <form>
+            <form action="mailto:robinallmandev@gmail.com" method="get" enctype="text/plain">
+                <label for="subject">Subject:</label>   
+                <input type="text"> <br>
                 <label for="name">Your name:</label> 
                 <input type="text"> <br>
-                <label for="pikachu">Your email:</label>
+                <label for="email">Your email:</label>
                 <input type="text"> <br>
+                <label for="message">Your message:</label><br>
+                <textarea name="body" rows="5" cols="30" placeholder="Your query here"></textarea><br>
                 <input type="submit" value="Send">
             </form>
         </div>
